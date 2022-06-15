@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>hi hello</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+  <style>
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-family: 'Montserrat', Sans-Serif;
+    }
+    button {
+      font-family: 'Montserrat', Sans-Serif;
+      margin: 0 auto;
+      display: block;
+    }
+    .krazy-style {
+      line-height: 24px;
+      font-size: 16px;
+      font-family: 'Courgette', cursive;
+      animation: fadeIn 5s;
+    }
+@keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+@-moz-keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+@-webkit-keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <h1 id="magic-mawawala">Hello, click mo 👇</h1>
+  <button id="disable-dis" onclick="haha()">Message For You 🫶</button>
+  <div id="krazy-vid"></div>
+  <p id="krazy" class="krazy-style"></p>
+  <script>
+    function haha() {
+      const gosyon = document.getElementById("krazy");
+      const gosyonDiv = document.getElementById("krazy-vid");
+      gosyonDiv.innerHTML = "<video width=\"320px\" height=\"320px\" autoplay><source src=\"krazyRapidBoots.mp4\" type=\"video/mp4\"</video>"
+      gosyon.innerHTML = "Krazy rapid boots, idol hindi porket gosyon gamit mo hindi na pwede mag rapid boots para sabihin ko sayo sa mundo ng mobayl ligen lahat ng aytems ay pwede gamitin ng heroes naiintindihan moba idol mag aral ka muna nang mabuti tungkol sa ml o mobayl ligen";
+    }
+  </script>
+</body>
+</html>
